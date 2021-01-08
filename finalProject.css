@@ -1,0 +1,280 @@
+body {
+    background: black;
+    margin: 0;
+}
+
+.header {
+    position: relative;
+}
+.header .headerBackground {
+    background: url("Community-header-background.jpg") 0 0 no-repeat black;
+    height: 100px;
+    position: relative;
+    z-index: 2;
+}
+.gameLogo {
+    position: absolute;
+    margin-left: 650px;
+    top: 0;
+    width: 253px;
+    z-index: 2;
+}
+.gameLogo img {
+    height: 100px;
+    margin: 8px;
+}
+.shadow {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background: linear-gradient(rgba(0,0,0,0.75), transparent);
+}
+.header .hiddenMenu {
+    background: url("Mainpromo9.png") 0 0 no-repeat;
+    background-size: cover;
+    box-shadow: 0 2px 2px 2px rgba(0,0,0,0.25);
+    color: white;
+    height: 300px;
+    font-weight: 600;
+    width: 500px;
+    transition: top 1s;
+    top: -210px;
+    left: 50%;
+    text-shadow: 2px 2px black;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 1;
+}
+.header .hiddenMenu.visible {
+   top: 100px;
+}
+.header .hiddenMenu a {
+    cursor: pointer;
+    display: inline-block;
+    width: 108px;
+}
+.header .hiddenMenu a:hover{
+    color: red;
+}
+.header .hiddenMenu .tags {
+    margin: 30px 23px 30px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    background: url("Untitled 3.png") 0 0 no-repeat;
+}
+
+.container .entireMap {
+    display: inline-block;
+    height: 700px;
+}
+.hallowNestMap {
+    display: inline-block;
+    height: 410px;
+    width: 630px;
+    position: relative;
+}
+.hallowNestMap .bg {
+    background: url("NavMap.png") 0 0 no-repeat;
+    height: 410px;
+    width: 630px;
+}
+.hallowNestMap svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hallowNestMap svg path {
+    cursor: pointer;
+    opacity: 0;
+}
+.hallowNestMap svg path:hover {
+    opacity: 0.5;
+}
+
+.paragraphHeader {
+    background: url("Untitled 4.png") 0 0 no-repeat;
+    width: 100%;
+    height: 25px;
+}
+.hallowNestDescription {
+    color: white;
+    display: inline-block;
+    width: 400px;
+    height: 700px;
+    vertical-align: top;
+    padding-left: 30px;
+}
+.Description {
+    color: white;
+    width: 400px;
+    padding-left: 30px;
+}
+.dirtMouth {
+    background: url('Dirtmouth_Grimm_Troupe_Centre.png') 0 0 no-repeat;
+    color: white;
+    width: 100%;
+    height: 700px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.dirtMouth.visible {
+    opacity: 1;
+}
+.howlingCliff {
+    background: url('Screenshot_HK_Howling_Cliffs_03.png') 0 0 no-repeat;
+    color: white;
+    width: 100%;
+    height: 700px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.howlingCliff.visible {
+    opacity: 1;
+}
+.greenPath {
+    background: url('Greenpath_Hornet_Arena.png') 0 0 no-repeat;
+    color: white;
+    width: 100%;
+    height: 700px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.greenPath.visible {
+    opacity: 1;
+}
+.crystalPeak {
+    background: url('Crystal_Peak_Mining_Golem.png') 0 0 no-repeat;
+    color: white;
+    width: 100%;
+    height: 700px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.crystalPeak.visible {
+    opacity: 1;
+}
+.queenGardens{
+    background: url('Screenshot_HK_White_Lady_01.png') 0 0 no-repeat;
+    color: white;
+    width: 100%;
+    height: 700px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.queenGardens.visible {
+    opacity: 1;
+}
+.royalWaterways{
+    background: url('Screenshot_HK_Royal_Waterways_08.png') 0 0 no-repeat;
+    color: white;
+    width: 100%;
+    height: 700px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.royalWaterways.visible {
+    opacity: 1;
+}
+.ancientBasin{
+    background: url('Ancient_Basin_Wishing_Well.png') 0 0 no-repeat;
+    color: white;
+    width: 100%;
+    height: 700px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.ancientBasin.visible {
+    opacity: 1;
+}
+.kingdomEdge{
+    background: url('Screenshot_HK_Kingdom27s_Edge_07 (1).png') 0 0 no-repeat;
+    color: white;
+    width: 100%;
+    height: 700px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.kingdomEdge.visible {
+    opacity: 1;
+}
+.theHive{
+    background: url('Screenshot_HK_Hive_01.png') 0 0 no-repeat;
+    color: white;
+    width: 100%;
+    height: 700px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.theHive.visible {
+    opacity: 1;
+}
+.restingGrounds{
+    background: url('Screenshot_HK_Dreamers_08 (1).png') 0 0 no-repeat;
+    color: white;
+    width: 100%;
+    height: 700px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.restingGrounds.visible {
+    opacity: 1;
+}
+.forgottenCrossroads{
+    background: url('Temple_Of_The_Black_Egg_Exterior.png') 0 0 no-repeat;
+    color: white;
+    width: 100%;
+    height: 700px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.forgottenCrossroads.visible {
+    opacity: 1;
+}
+.deepNest{
+    background: url('Beast27s_Den_Trilobite.png') 0 0 no-repeat;
+    color: white;
+    width: 100%;
+    height: 700px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.deepNest.visible {
+    opacity: 1;
+}
+.fogCanyon{
+    background: url('Teacher27s_Archives_Exterior.png') 0 0 no-repeat;
+    color: white;
+    width: 100%;
+    height: 700px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.fogCanyon.visible {
+    opacity: 1;
+}
+.fungalWaste {
+    background: url('Fungal_Wastes_Lore_Tablet.png') 0 0 no-repeat;
+    color: white;
+    width: 100%;
+    height: 700px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.fungalWaste.visible {
+    opacity: 1;
+}
+.cityOfTears {
+    background: url("City_of_Tears_Fountain_Square.png") 0 0 no-repeat;
+    width: 100%;
+    height: 700px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.cityOfTears.visible {
+    opacity: 1;
+}
+
