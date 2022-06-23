@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FinalProject</title>
+    <link rel="stylesheet" href="finalProject.css">
+</head>
+<body>
+    <div class="header">
+        <div class="headerBackground"></div>
+        <div class="gameLogo"><img src="logo.png"/></div>
+        <div class="shadow"></div>
+        <div class="hiddenMenu">
+            <div class="tags">
+                <a data-name="howlingCliff">Howling Cliff</a>
+                <a data-name="fogCanyon">Fog Canyon</a>
+                <a data-name="greenPath">Green Path</a>
+            </div>
+            <div class="tags">
+                <a data-name="forgottenCrossroads">Forgotten Crossroads</a>
+                <a data-name="crystalPeak">Crystal Peak</a>
+                <a data-name="royalWaterways">Royal Waterways</a>
+            </div>
+            <div class="tags">
+                <a data-name="restingGrounds">Resting Grounds</a>
+                <a data-name="dirtMouth">Dirt Mouth</a>
+                <a data-name="queenGardens">Queen Gardens</a>
+            </div>
+            <div class="tags">
+                <a data-name="fungalWaste">Fungal Waste</a>
+                <a data-name="kingdomEdge">Kingdom Edge</a>
+                <a data-name="theHive">The Hive</a>
+            </div>
+            <div class="tags">
+                <a data-name="cityOfTears">City Of Tears</a>
+                <a data-name="ancientBasin">Ancient Basin</a>
+                <a data-name="deepNest">Deep Nest</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="entireMap">
+            <div class="hallowNestDescription">
+                <div class="paragraphHeader"></div>
+                <p>The story of the Kingdom of Hallownest can be pieced together through dialogue, cutscenes, lore tablets, visual storytelling, and entries in the Hunter's Journal. While there are some ambiguous elements, in general, the information derived from these sources can provide a stable foundation for assembling the overall narrative. As long as all sources have been exhausted and taken into account, a player should, in their own right, have a general understanding of any lore topic.</p>
+                <div class="paragraphHeader"></div>
+            </div><!--
+            --><div class="hallowNestMap">
+                <div class="bg">
+                <svg width="630" height="410" xmlns="http://www.w3.org/2000/svg">
+                    <path class="path" data-name="howlingCliff" d="M95.3 9.8l105.8.7c4.1-.2 6.6.2 7.7 1 1 .8 1.5 2.7 1.7 5.5v35.8c.2 3.6-.1 5.9-1 6.7-.9.8-8.7 1.5-23.5 2.1V99h-18.5c-3.9 0-9.4-.3-16.6-.9l-.9-16.9h-25.9a42 42 0 01-6.7-1.8c-.9-.4-2.5-2.4-4.2-2.2-2.3.3-4.9 2.9-7 2.2-3.5-1.3-2-2.6-4.3-3.5-3-1.2-7-1-7.4-1.8-1.8-3.5 6.1-5.6 3.8-8.8-2.6-3.3-8.5-2.2-9.3-2.6-1.4-.5-1.7-1.6-1-3.1V12.7c.8-1.1 1.5-1.9 2.4-2.2a18 18 0 014.8-.8z" fill-rule="evenodd" />
+                    <path class='path' data-name="fogCanyon" d="M226.4 161.7v-9l1.8-2.1h16.2l2.7 3 .1 31-2 2.2h-13.6l-1.8-1.8-.5-2.2-.7-.5-2.2.6-1.9 1.9-1.2 3H202v18.6l-2.3 1.8-.7 2.4 3 2.3v4.7h-35.6v-29.8l-43.7-.5-.1-21.7 1-2.3.7-1.6H149l1.7 1 .7 1.2 2-.5v-.4l1.6-1.3z" fill-rule="evenodd"/>
+                    <path class='path' data-name="greenPath" d="M33.5 84.8l1-1c4-.7 14.6-1 31.9-1 15.9 0 40.2-1.2 69.1 0 1.7 0 3.7.4 6 1l2.4 1.4 1.7 2c.3 2 .5 3.4.5 4.4 0 3.1.3 6.5 1 10.2l58-.2 9-.3 5.6 1.5 1.7 3.6.7 4-.3 28.2-2 3a9.5 9.5 0 01-2.4 1.7c-1.5.5-2.6 0-3.1.7-.5.6.1 1.4 0 2.4-.2.4.6 1 .2 1.7 0 .3-.3.7-.5 1.2l-.5 1.2-5.2 2.5-6 3.5h-66.8l-3.1-1c-1-.4-1.6-1.7-2-2-1.2-.8-2.2-1.5-3.1-1.9-1.3-.5-1.5-3.5-3.4-3.7-.5 0-1.5.4-2.9 1.4l-2.6 4-5 2.2c-2.4.4-4 .4-5 0-1-.5-2-.2-2.7-1-1.2-1.1-3-3.4-3.7-3.9a7.3 7.3 0 00-4.9-1.3V121l-24 .8-1.7-1-2 1.5-3-.3c-3.5-.7-6-1-7.5-1-1 0-1.8 1-2.7 1-1.1 0-2.5-1-4.1-1h-9c-2.7 0-4.5 0-5.6-.3-1.6-.3-3-1.4-4-1.4s-2.4 1.2-4 1.5c-1 .2-2.7.2-5 .2l-1-4.4v-15.3l2-5.9a11 11 0 012.3-3.8l2.5-4.5 3.2-2.3z" fill-rule="evenodd"/>
+                    <path class='path' data-name="forgottenCrossroads" d="M236.4 101.5H361l1.4 3.8-.7 3.2.6.3 1.4-2.6 1-4.7h5.5l2.3 3.8v56.4h-42.2v-12.9l-103.9-1V112l3-4.2 2.4-.7 2 1.2 1.4-.8v-3.9z" fill-rule="evenodd"/>
+                    <path class='path' data-name="crystalPeak" d="M377.5 75.8v54.7h76.4v-14.8l-4.5-3.4h-22.2V93.4h12.3l.7 2.6.8.7 3.4-.7.6-1 1.7-.7 1.3-.6 1.1.9 1.3 1 .2 1.6 3.3.7 3.7-.7 2.8-1.6-.3-2 2-.5 1.5 1.5 2.2 1 2.2-3 5.9 2.6 3-1.8 1.1-2.2.3-10.6-1.4-5.7-.5-2.8-13.2-9.3-11.3-1-.5-28.6-1.8-1.6-.9-2.2 1-1.6-.2-3.6-2.3-2.5 1.2-1.5 1.6-.4 1.2-1.5.3-15.9h-28.4V24h-39.9l-6.7 7V58h-46.2l-4.6 2.3v15.2h16.4l3 3h3l2.3-2 1.9-1.2.5 1.9 2.1 1.3 3.6-1.5 3.4.5 4-1.4z" fill-rule="evenodd"/>
+                    <path class='path' data-name="royalWaterways" d="M279 273.6v29.1l7.7.2 5.5.2h3.9l5.1.2 12.9.4 2.8-1 3.2 1.1 3.4.1 3.4-.9 2.5 1 4 .2 2.3-1 2.8 1.1 4.3.2 1.4-1 2.2-.5 3 1.6v28.6H411v-16.7h74.4v-33h14.5l2.3-1.6v-16l-1.7-2.4a21 21 0 00-4.6-.6c-64.4-.5-128.9-.5-193.5 0l-4.2 2.1v6.6l-15.5-.4-3.7 2.4z" fill="#EDEBEB" fill-rule="evenodd"/>
+                    <path class='path' data-name="restingGrounds" d="M378.5 161.7h5l2.5-2 2.8.2 1.8.8h4l.8-1 3.8-.5 1.6 1.2 5.5-.2 1-.5 3.3.2 2.1 1.8h5.2l1.6-2 2.8-.3 5.7.6 1.4-.3 2.7 1.3 1.5-.3h3.9l1.3-1 3-.3 2.1 1.3h4.4l.6-1.4 3.5.4 1.9 1h2.6v-5l81.7.8c2.3-1.6 3.5-2.6 3.6-3a431 431 0 001.2-48.4c0-.6-1-1.7-2.9-3.4l-3.5-2.4h-54.1l-3.6 1.9-1.2 1.5v30.8l-99.6 1.3v26.9z" fill="#EDEBEB" fill-rule="evenodd"/>
+                    <path class='path' data-name="dirtMouth" d="M189 97.9h134.4l-1.2-43.2-.8-1.7c-.8-1.1-1-1.8-1.6-2.3-1.1-.9-1.9-1.8-4.2-1.9-29-1.4-60.1-1.4-93.1 0-1.3 1-2 2-2.2 3.1v11.3H193a8 8 0 00-1.3.6c-1.5 1-2.1 2-2.2 3-.2 1.2-.2 2.4-.2 3.6 0 3.7.4 7.3.4 11a940.4 940.4 0 01-.2 16.5h-.3z" fill="#EDEBEB" fill-rule="evenodd"/>
+                    <path class='path' data-name="queenGardens" d="M26.8 232.4V196l2-3.3 3.4-3c1.8 0 2.8-.3 3-1 .9-2.4.2-6 .2-8.8 0-.6.2-1 .8-1.5-1 2-.6 1.3 1-1.8.4-.9-.2.4.3-.4.7-1.1 2.5-4.2 3.7-5.4 1.4-1.2 3.2-2.5 5.3-3.7.8-.7 2-1.4 3.4-2a51 51 0 015.6-2.3h63v25.9H161v48H158l-4-1 .1 1.1a36.3 36.3 0 00-5.5.9l.1 4.2-78.1-.3h-2.7l-7.3.1v-6l-3.7-.2-2 1.6v1.5l-2.4.2-.1 3h-16l-.7-1-1-1.5.2-3.5-3.8-.3-.3-2.9-3.9-.2z" fill="#EDEBEB" fill-rule="evenodd"/>
+                    <path class='path' data-name="fungalWaste" fill="#EDEBEB" d="M166.5 241.1l67.5 1v49.3h40.9V270h17.7l1-47.4-2.5-3.1 1.5-2.7-2.1-2.3.1-1.7-.5-1.8 3.5-2.1v-40.2h-15.3V153h-28v43.3l-4.2.4-2 1.8-1.7 1.5-1.3.1-3 .2-3.3.6-1.7-1.2v-1.4l-1.4-2h-26.3v23.8h-35.9l-3 2.1z" fill-rule="evenodd"/>
+                    <path class='path' data-name="kingdomEdge"  fill="#EDEBEB" d="M489 337v-51h31.7v-79.8H489l1-21.1 18.1-15 38.1-1 5.7 6.3v60.3h68.7l6.5 4.3v57.8H511.5v57h-67v-13.7l4.4-4z" fill-rule="evenodd"/>
+                    <path class='path' data-name="theHive"  fill="#EDEBEB" d="M514.9 365.5h95.6l9-9.7V313l-10-12h-94.6z" fill-rule="evenodd"/>
+                    <path class='path' data-name="cityOfTears" fill="#EDEBEB" d="M298.2 259.2h156.6l-.3-2.5 61.2-.3.2-32.3h-35.7v-63h-15.9V199h-4.8L445 184.2l-1.6-1.3-.7-2.1-1.7-.4-2.1-1.5-4.2-1.9-2.6-1.4-6-2-7.3-1.3-2.6-.5h-92.9v-18.7h-25.1z" fill-rule="evenodd"/>
+                    <path class='path' data-name="ancientBasin" fill="#EDEBEB" d="M243.1 400h75.7v6h148.6v-43.1l-1.7-1.4-1.6-1.3h-52.8v-18.1l-1-3.1-3.5-2h-53l-2.2 1.5-.5 1.3-.5 1-.4 2.5.2 6.4h-1.8v6.3h-45.5v7.2h-56.8l-1.5 1.3-1 1-.7 2.4z" fill-rule="evenodd"/>
+                    <path class='path' data-name="deepNest" d="M74.8 245.5v55.8H61.6v-20.1l-1.2-1.3-1.6-2H9.6l-2.7 2.3-1.7 2.3-1 1.8v68.8l29.6 2 1.7-18.4h70v9.8a28.2 28.2 0 015 6.6c.2 1.3.7 2 1.7 2 17.5 1.1 34.7.7 53.6.9 17 .1 44.1-.2 81.3-.9V342l-2-3.1c-1-1.3-2-2-3.3-2.1-5.9-.7-12.2 0-19 0H202l-1.5-2.1.4-2.8v-30.6l-.3-5.3 1.4-3.2h29.4v-18h-12.2v-21l-2.8-3.1h-20.8v-5.3H74.8v.2z" fill="#EDEBEB" fill-rule="evenodd"/>
+                </svg>
+            </div>
+        </div>
+        </div>
+            <div class="dirtMouth">
+                <div class="Description">
+                    <div class="paragraphHeader"></div>
+                    <p>
+                        Dirtmouth used to be a bustling town which was part of the kingdom of Hallownest, being a respite for travellers to and from the kingdom. A bridge which ran up to King's Pass allowed for easy access into the town. Dirtmouth's Stag Station brought travellers to other places around the kingdom.
+                        The well leading to the Forgotten Crossroads
+                        Once the Infection spread across Hallownest, all entry points into the kingdom were sealed to prevent the spread of the Infection, even the Stag Station shutting down. Dirtmouth's old well remained as the only way to enter Hallownest. Over the years, this well was used by many wanderers and adventurers to get into the ruins of the kingdom, with few of them ever returning. When the bridge up to King's Pass crumbled away, the few travellers coming to Dirtmouth had to take circuitous routes around the cliffs.
+                        Over time, nearly everyone living in Dirtmouth went down the well, drawn in one by one by the promise of wealth, glory, or enlightenment. The town fell quiet, with none of the residents ever returning from the ruins of Hallownest.
+                    </p>
+                    <div class="paragraphHeader"></div>
+                </div>
+            </div>
+            <div class="howlingCliff">
+                <div class="Description">
+                    <div class="paragraphHeader"></div>
+                        <p>The Pale King granted wild bugs sentience through his beacon. The ones who chose to leave the kingdom lost their memories. Most bugs living in the wastelands outside Hallownest are unintelligent as sapience would seemingly be a weakness in their environment.</p>
+                    <div class="paragraphHeader"></div>
+                </div>
+            </div>
+        <div class="greenPath">
+            <div class="Description">
+                <div class="paragraphHeader"></div>
+                <p>
+                    Greenpath is inhabited by the Mosskin Tribe, a group of plant-like bugs. They allowed the Pale King to build roads throughout their lush caves, but anyone straying from the paths would face the law of Unn.
+                    The most glaring displays of their skills of carving and construction are the lore tablets scattered across Greenpath and the temple built to worship their god, Unn, which is located on the shores of the Lake of Unn, where the Higher Being was said to appear.
+                    Unn is said to have created all of the area's flora and the Mosskin themselves from her dreams. She is calling the mosskin, who are waiting for the call to return.
+                    The region now known as Greenpath used to be much more extensive, stretching over Queen's Gardens and possibly Fog Canyon.
+                </p>
+                <div class="paragraphHeader"></div>
+            </div>
+        </div>
+            <div class="crystalPeak">
+                <div class="Description">
+                    <div class="paragraphHeader"></div>
+                    <p>
+                        In Hallownest's prime, Crystal Peak's mines supplied the kingdom's cities with a constant supply of crystals. The crystal ore contains energy, not as powerful as Soul but less lethal. Besides regular bug miners who mined the crystals with their claw-picks, creatures such as the Shardmites and Glimbacks were used to carry around carts and machines.
+                        When the Infection took hold, many of the miners died and were subsequently reanimated. Their husks were imprinted with strong purpose, causing them to continue mining even after death.
+                        The crystals themselves have a strange power hidden within them. They glow in the darkness, and there is a bright point of searing heat inside each of them. The crystals can refract light and also emit a very soft singing sound
+                    </p>
+                    <div class="paragraphHeader"></div>
+                </div>
+            </div>
+            <div class="queenGardens">
+                <div class="Description">
+                    <div class="paragraphHeader"></div>
+                    <p>
+                        The Queen's Gardens used to belong to Unn and her Mosskin Tribe. At some point this area was annexed by the White Lady, who turned it into her well-guarded retreat. After the White Lady bound herself in her chamber in the gardens and the Infection returned, the gardens grew wild and became overgrown.
+                        When the Mantis Traitors were exiled from their village in the Fungal Wastes, they eventually settled in the Queen's Gardens. They now consider the gardens to be their lands.
+                    </p>
+                    <div class="paragraphHeader"></div>
+                </div>
+            </div>
+            <div class="royalWaterways">
+                <div class="Description">
+                    <div class="paragraphHeader"></div>
+                    <p>
+                        The waterways' pipes were built to carry away the capital's waste. However, the incessant rain in the city above has washed the pipes clean. All trash carried by the water eventually ends up in the Junk Pit.
+                        With the kingdom's ruin, Flukes established a colony in the depths of the waterways and populated the area along with other creatures.
+                    </p>
+                    <div class="paragraphHeader"></div>
+                </div>
+            </div>
+            <div class="ancientBasin">
+                <div class="Description">
+                    <div class="paragraphHeader"></div>
+                    <p>
+                        An ancient area, Ancient Basin is filled with old structures and roads that were formed as if the rock itself possessed a will.
+                        The Pale King built his palace in Ancient Basin, and it was from there that the kingdom of Hallownest spread. He ruled Hallownest from the White Palace, rarely leaving it. The palace disappeared together with the Pale King after the infection reappeared.
+                    </p>
+                    <div class="paragraphHeader"></div>
+                </div>
+            </div>
+            <div class="kingdomEdge">
+                <div class="Description">
+                    <div class="paragraphHeader"></div>
+                    <p>
+                        Kingdom's Edge is the area where the Pale King arrived as a large Wyrm before the kingdom was founded. He shed his shell in the east part of Kingdom's Edge and transformed into his smaller form.[3] His decaying corpse became responsible for the ash falling on Kingdom's Edge, which is actually moult.[4] Once the kingdom was established and the City of Tears was built, the city inhabitants seemed hesitant to built further into Kingdom's Edge, apparently kept at bay by something.
+                        At some point the Colosseum of Fools was set up in the carved-out corpse of an ancient bug which died on one of the cliffs. It drew warriors from all corners to compete in its arena.
+                    </p>
+                    <div class="paragraphHeader"></div>
+                </div>
+            </div>
+            <div class="theHive">
+                <div class="Description">
+                    <div class="paragraphHeader"></div>
+                    <p>
+                        The Hive is inhabited by a species of airborne warriors ruled by a queen. Though the colony exists within Hallownest, they remained separate from the kingdom's affairs, walled off from the lands of the Pale King. During Hallownest's reign, the bees sealed up all outside accesses save for the occasional patrolling Hivelings. Their queen died after growing so large she could no longer leave her domain. From then on the Hive was weakened and thus eventually overtaken by the Infection.
+                    </p>
+                    <div class="paragraphHeader"></div>
+                </div>
+            </div>
+            <div class="restingGrounds">
+                <div class="Description">
+                    <div class="paragraphHeader"></div>
+                    <p>
+                        The Resting Grounds were a sacred place where bugs would come to conduct rituals for the dead. The Moth Tribe were the caretakers of the graves, eventually closing the door to Spirits' Glade and forbidding its opening.
+                        A memorial to the Dreamers was built after they went into an eternal sleep. When the Infection returned, bugs stopped going to the Resting Grounds. The Seer ended up being the last survivor of her tribe. She maintains the graves and guides the wielder of the Dream Nail.
+                    </p>
+                    <div class="paragraphHeader"></div>
+                </div>
+            </div>
+
+            <div class="forgottenCrossroads">
+                <div class="Description">
+                    <div class="paragraphHeader"></div>
+                    <p>
+                        The highways and crossroads of the Forgotten Crossroads used to be bustling with life. Many travellers and traders passed through the area as it had many connections to the rest of Hallownest. The Pilgrim's Way, a road leading to the City of Tears, started in the west of the Crossroads.
+                        Due to the Infection and the passage of time, all travel through the Crossroads ceased. It is now an empty place overrun with wild beasts and reanimated Hallownest citizens.
+                    </p>
+                    <div class="paragraphHeader"></div>
+                </div>
+            </div>
+            <div class="deepNest">
+                <div class="Description">
+                    <div class="paragraphHeader"></div>
+                    <p>
+                        Deepnest was occupied by two intelligent arachnid groups, the Spider Tribe, which used to be one of the most intelligent species in the land of Hallownest, and the Weavers, an outsider tribe that established their own history and culture in Deepnest. Both groups lived under the rule of their queen, Herrah the Beast, and an unknown sire, who was of honoured caste. They ruled from Distant Village where Herrah's Den was located. Deepnest was often in conflict with the Mantis Tribe and Mushroom Clan of the Fungal Wastes.
+                        When the Pale King started establishing his kingdom, Distant Village and the creatures of Deepnest completely refused his rule. His efforts of expansion were met with furious resistance. A tramway could not be established in Deepnest due to the beasts attacking the workers.
+                    </p>
+                    <div class="paragraphHeader"></div>
+                </div>
+            </div>
+            <div class="fogCanyon">
+                <div class="Description">
+                    <div class="paragraphHeader"></div>
+                    <p>
+                        Fog Canyon shares many natural geological features with those of Greenpath, suggesting that the areas were not separate in the past. A guard outpost was occupied by Hallownest Crossguards. The Pilgrim's Way, a road starting in the Forgotten Crossroads and ending near the City of Tears, passes through Fog Canyon.
+                        The main feature of the area were the Teacher's Archives, where Monomon the Teacher stored all her research and the kingdom's knowledge. In an attempt to stop the Infection, Monomon became a Dreamer, sleeping for eternity in her archives, protected by the intelligent being Uumuu. At some unknown point, the Archives became a nest for the gelatinous creatures of the canyon.
+                    </p>
+                    <div class="paragraphHeader"></div>
+                </div>
+            </div>
+            <div class="fungalWaste">
+                <div class="Description">
+                    <div class="paragraphHeader"></div>
+                    <p>
+                        The native population of the Fungal Wastes mainly consist of the Mushroom Clan and the Mantis Tribe. The Mushroom Clan is a group of fungal creatures who have a shared mind. They share a border with Deepnest, whose inhabitants they were in conflict with. When the Pale King arrived in Hallownest, they accepted his rule due to their strong belief that his foresight could protect them.
+                        However, the Mantis Tribe who live in the south part of the area had no love for the kingdom of Hallownest. The Mantises agreed to a truce where they would retain sovereignty over their territory, and in return, they would keep the beasts of Deepnest at bay.
+                        The Fungal Wastes was an important area for travellers. The Pilgrim's Way, a road leading from the Forgotten Crossroads to the City of Tears, passed through the caverns. Queen's Station connected Fog Canyon and the Fungal Wastes to the Stagways, becoming a hub of travel for travellers who wanted to visit the outer edges of Hallownest.
+                        When the Infection spread across the land, the Mushroom Clan became infected and started becoming aggressive to outsiders. While the Mantis Tribe did not fall to the Infection, they retained their tradition of attacking anyone who wandered near their village.
+                    </p>
+                    <div class="paragraphHeader"></div>
+                </div>
+            </div>
+        <div class="cityOfTears">
+            <div class="Description">
+                <div class="paragraphHeader"></div>
+                <p>
+                    In the past, the City of Tears was known as "the city at this kingdom's heart", "Hallownest's heart", and "Hallownest's capital city". One way of entering it was via the Pilgrim's Way, a road starting in the Forgotten Crossroads and going through Greenpath, Fog Canyon, and the Fungal Wastes, ending at the great gate in the western part of the city.
+                    Travellers were promised that if they reached the capital that all their wishes would be granted and that they could share in the city's glory. Goods from all across Hallownest were transported to the capital, though not many were sent back.
+                    The members of Hallownest's high society were the ones who exerted the most influence. Lurien the Watcher appears to have been one of the most influential figures of the city, watching over it with his telescope in Watcher's Spire.
+                    When the Infection spread across Hallownest, the capital's gates were sealed to stop anyone from entering or leaving the city in an attempt to prevent the Infection from reaching the city. However, this proved to be in vain as the entire city became infected. Water now leaks from Blue Lake through the cavern's ceiling, causing the rain and giving the capital its current name.
+                </p>
+                <div class="paragraphHeader"></div>
+            </div>
+        </div>
+        </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(event) {
+            const dirtMouth = document.querySelector('.dirtMouth');
+            const howlingCliff = document.querySelector('.howlingCliff');
+            const greenPath = document.querySelector('.greenPath');
+            const forgottenCrossroads = document.querySelector('.forgottenCrossroads');
+            const crystalPeak = document.querySelector('.crystalPeak');
+            const queenGardens = document.querySelector('.queenGardens');
+            const royalWaterways = document.querySelector('.royalWaterways');
+            const ancientBasin = document.querySelector('.ancientBasin');
+            const kingdomEdge = document.querySelector('.kingdomEdge');
+            const theHive = document.querySelector('.theHive');
+            const restingGrounds = document.querySelector('.restingGrounds');
+            const deepNest = document.querySelector('.deepNest');
+            const fogCanyon = document.querySelector('.fogCanyon');
+            const fungalWaste = document.querySelector('.fungalWaste');
+            const cityOfTears = document.querySelector('.cityOfTears');
+            document.addEventListener('scroll', function() {
+                if (window.scrollY > 500) {
+                    dirtMouth.classList.add('visible');
+                }
+                if (window.scrollY > 1200) {
+                    howlingCliff.classList.add('visible');
+                    dirtMouth.classList.remove('visible');
+                }
+                if (window.scrollY > 1900) {
+                    greenPath.classList.add('visible');
+                    howlingCliff.classList.remove('visible');
+                }
+                if (window.scrollY > 2600) {
+                    crystalPeak.classList.add('visible');
+                    greenPath.classList.remove('visible');
+                }
+                if (window.scrollY > 3300) {
+                    queenGardens.classList.add('visible');
+                    crystalPeak.classList.remove('visible');
+                }
+                if (window.scrollY > 4000) {
+                    royalWaterways.classList.add('visible');
+                    queenGardens.classList.remove('visible');
+                }
+                if (window.scrollY > 4700) {
+                    ancientBasin.classList.add('visible');
+                    royalWaterways.classList.remove('visible');
+                }
+                if (window.scrollY > 5400) {
+                    kingdomEdge.classList.add('visible');
+                    ancientBasin.classList.remove('visible');
+                }
+                if (window.scrollY > 6100) {
+                    theHive.classList.add('visible');
+                    kingdomEdge.classList.remove('visible');
+                }
+                if (window.scrollY > 6800) {
+                    restingGrounds.classList.add('visible');
+                    theHive.classList.remove('visible');
+                }
+                if (window.scrollY > 7500) {
+                    forgottenCrossroads.classList.add('visible');
+                    restingGrounds.classList.remove('visible');
+                }
+                if (window.scrollY > 8200) {
+                    deepNest.classList.add('visible');
+                    forgottenCrossroads.classList.remove('visible');
+                }
+                if (window.scrollY > 8900) {
+                    fogCanyon.classList.add('visible');
+                    deepNest.classList.remove('visible');
+                }
+                if (window.scrollY > 9600) {
+                    fungalWaste.classList.add('visible');
+                    fogCanyon.classList.remove('visible');
+                }
+                if (window.scrollY > 10300) {
+                    cityOfTears.classList.add('visible');
+                }
+            });
+            document.querySelector('.header').addEventListener('mouseover',function(){
+                document.querySelector('.hiddenMenu').classList.add('visible');
+            });
+            document.querySelector('.header').addEventListener('mouseleave',function(){
+                document.querySelector('.hiddenMenu').classList.remove('visible');
+            });
+            document.querySelectorAll('.bg svg path').forEach(x => x.addEventListener('click' ,function() {
+                let name = x.dataset.name;
+                document.querySelector(`.${name}`).scrollIntoView();
+            }));
+            document.querySelectorAll('.hiddenMenu a').forEach(x => x.addEventListener('click', function(e){
+                e.preventDefault();
+                let name = x.dataset.name;
+                document.querySelector(`.${name}`).scrollIntoView();
+            }));
+        })
+    </script>
+</body>
+</html>
